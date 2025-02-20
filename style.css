@@ -1,9 +1,9 @@
 body {
-    background-color: #f8f9fa;
     background-image: url('assets/back.png');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container {
     max-width: 500px;
@@ -25,7 +25,7 @@ h2 {
     border-color: #004085;
 }
 .list-group-item {
-    transition: 0.3s;
+    transition: 3s;
 }
 .list-group-item:hover {
     background-color: #f1f1f1;
